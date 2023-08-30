@@ -6,6 +6,7 @@ public class Task2 {
         int n = scanner.nextInt(); // Width
         int m = scanner.nextInt(); // Height
 
+
         int currentNumber = 1;
 
         for (int diagSum = 1; diagSum <= n + m - 1; diagSum++) {
